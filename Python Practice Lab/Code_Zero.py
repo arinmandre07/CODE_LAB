@@ -275,3 +275,29 @@
 # THE LEGENDARY LOOPS (INTRODUCTION)
 # *THE FOR LOOP*
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
