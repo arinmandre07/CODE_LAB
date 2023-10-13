@@ -4,32 +4,42 @@
 
 2. CompTIA Network+ Cert: https://mega.nz/folder/CXZlhBwC#ZA0NVYPNJhv44MbvGQr7xA
 
-3. Linux Fundamentals: 
+3. Linux Essentials For Hackers: https://mega.nz/folder/bWAzhIpK#75a7aku_sRt6xELqZx4Rtw
 
 4. CISCO CCNA: (Auth. David Bombal-Udemy)
 
 
 ## HACKING IN PRACTICE
 
-1.
+1. Hacking in Practice Intensive Ethical Hacking: 
 
-2.
+2. Learn Ethical Hacking From Scratch:
 
-3.
+3. Network Hacking Continued – Intermediate to Advanced:
 
-4.
+4. Website Hacking Penetration Testing & Bug Bounty Hunting:
 
-5.
+5. Intro to Bug Bounty Hunting and Web Application Hacking:
 
-6.
+6. Practical Ethical Hacking – The Complete Course:
 
-7.
+7. Learn Python & Ethical Hacking From Scratch:
 
-8.
+8. Complete Hacking Tools in Kali Linux:
 
-9.
+9. The Complete Ethical Hacking Course Beginner to Advanced:
 
-10.
+10. Recon for Ethical Hacking Penetration Testing & Bug Bounty: 
 
 
+## SCRIPTING LANGUAGES
 
+1. Bash Mastery The Complete Guide to Bash Shell Scripting:
+
+2. Python For Pentesters: 
+   Python 101 for Hackers: 
+
+3. SQL: 
+
+4. Javascript for Pentesters: 1. https://mega.nz/folder/ub40ARZD#TmsUGA1MK4_-lVbRvJG-QQ
+                              2. https://mega.nz/folder/ya5W0Lxa#Ocx3Gbtkv8PqSzzSpG6PfA
