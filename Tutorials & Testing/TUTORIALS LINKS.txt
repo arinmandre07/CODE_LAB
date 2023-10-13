@@ -11,35 +11,35 @@
 
 ## HACKING IN PRACTICE
 
-1. Hacking in Practice Intensive Ethical Hacking: 
+1. Hacking in Practice Intensive Ethical Hacking: https://mega.nz/folder/STp0RTgI#9evucI3TuA4ovRHwIzkZjw
 
-2. Learn Ethical Hacking From Scratch:
+2. Learn Ethical Hacking From Scratch: https://mega.nz/folder/uOhmlJDK#XurLsSfc4Q_2lqir8__7xQ
 
-3. Network Hacking Continued – Intermediate to Advanced:
+3. Network Hacking Continued – Intermediate to Advanced: https://mega.nz/folder/rDwizT6T#cfvtFj1U5NSML8A9e9WKKg
 
-4. Website Hacking Penetration Testing & Bug Bounty Hunting:
+4. Website Hacking Penetration Testing & Bug Bounty Hunting: https://mega.nz/folder/rLwGFBqL#fypM_Tl6_PqMLDllXPhdhw
 
-5. Intro to Bug Bounty Hunting and Web Application Hacking:
+5. Intro to Bug Bounty Hunting and Web Application Hacking: *LINK NA*
 
-6. Practical Ethical Hacking – The Complete Course:
+6. Practical Ethical Hacking – The Complete Course: https://mega.nz/folder/CKwkRTgD#eyLfo_HAvRIDZ7hJO_1N7w
 
-7. Learn Python & Ethical Hacking From Scratch:
+7. Learn Python & Ethical Hacking From Scratch: https://mega.nz/folder/vTgRBCBQ#-NcoMXnPAoQ1YnT7ywpwWw
 
-8. Complete Hacking Tools in Kali Linux:
+8. Complete Hacking Tools in Kali Linux: https://mega.nz/folder/OShBhKQa#AsIpstxQ_B3At405IbhsfA
 
-9. The Complete Ethical Hacking Course Beginner to Advanced:
+9. The Complete Ethical Hacking Course Beginner to Advanced: https://mega.nz/folder/TXpXUSbI#5vS2-RUclbt-kqRumNjyXg
 
-10. Recon for Ethical Hacking Penetration Testing & Bug Bounty: 
+10. Recon for Ethical Hacking Penetration Testing & Bug Bounty: https://mega.nz/folder/CDphRCJB#eBZqSmleyW6Thld_8RbZwQ
 
 
 ## SCRIPTING LANGUAGES
 
-1. Bash Mastery The Complete Guide to Bash Shell Scripting:
+1. Bash Mastery The Complete Guide to Bash Shell Scripting: https://mega.nz/folder/CGBj3S5S#UT2y_zzEcV8MybIEHvhpGQ
 
-2. Python For Pentesters: 
-   Python 101 for Hackers: 
+2. Python For Pentesters: https://mega.nz/folder/DCRhGKoA#wpRiRdPwtTNeK1cYXYnRQQ
+   Python 101 for Hackers: https://mega.nz/folder/qLBFTaDJ#V3FjAQQdBp7flYKrrF8r3g
 
-3. SQL: 
+3. SQL: https://mega.nz/folder/LS4FBKwI#2JKm18_PJngL8Fc4MP7mcw
 
 4. Javascript for Pentesters: 1. https://mega.nz/folder/ub40ARZD#TmsUGA1MK4_-lVbRvJG-QQ
                               2. https://mega.nz/folder/ya5W0Lxa#Ocx3Gbtkv8PqSzzSpG6PfA
