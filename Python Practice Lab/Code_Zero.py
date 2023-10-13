@@ -275,6 +275,10 @@
 # THE LEGENDARY LOOPS (INTRODUCTION)
 # THE FOR LOOP
 
+name = 'Arin'
+for i in name:
+    print(i, end=" ")
+
 
 
 
