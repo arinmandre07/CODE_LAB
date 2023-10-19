@@ -275,26 +275,52 @@
 # THE LEGENDARY LOOPS (INTRODUCTION)
 # THE FOR LOOP
 
-name = 'Arin'
-for i in name:
-    print(i, end=" ")
+# name = 'Arin'
+# for i in name:
+#     print(i)
+#     if (i == "A"):
+#         print("This Name is Something Special")
 
 
 
+# colors = ["Red", "Green", "Blue", "Yellow"]
+# for x in colors:
+#     print(x)
+# for color in colors:
+#         print(color)
+#         for i in color:
+#             print(i)
+
+
+# for k in range(100):
+#     print(k)   
 
 
 
+# for k in range(0, 20, 5):
+#     print(k)   
+
+## IN THIS CASE THE COUNT STARTS WITH THE FIRST ARGUMENT ENDS AT SECOND AND INCREMENTS THE FIRST BY THIRD
 
 
+# count = 5
+# while (count > 0):
+#   print(count)
+#   count = count - 1
+# else: 
+#   print("I am inside else")  
+
+# i = 0
+# while(i<=3):
+#     print(i)
+# print("Done with the loop")    
 
 
-
-
-
-
-
-
-
+# i = int(input("Enter the Number: "))
+# while(i<40):
+#     i = int(input("Entre the final value: "))
+#     print(i)
+# print("Done with the loop")    
 
 
 
