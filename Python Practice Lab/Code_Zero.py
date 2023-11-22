@@ -186,7 +186,7 @@
 ##IF - ELSE
 # EXP 1
 
-# tomatoesPrice = 200
+# tomatoesPrice = 50
 # budget = int(input("Enter the budget for 1kg tomatoes: "))
 # if (tomatoesPrice <= budget):
 #     print("Alexa, Add 1kg Tomatoes to the cart!")
@@ -313,6 +313,7 @@
 # i = 0
 # while(i<=3):
 #     print(i)
+#     i = i + 1
 # print("Done with the loop")    
 
 
@@ -323,6 +324,29 @@
 # print("Done with the loop")    
 
 
+# for i in range(1,101,1):
+#     print(i ,end=" ")
+#     if(i==500):
+#         break
+#     else:
+#         print("Mississippi")
+# print("Thank you")
+
+
+# count = 5
+# while (count > 0):
+#     print (count)
+#     count = count - 1
+# else:
+#     print("I'm Inside else")
+
+
+
+## EXAMPLE TO EMMULATE DO WHILE LOOP IN C
+# do {
+#     #LOOP BODY
+
+# } while (condition);
 
 
 
