@@ -323,6 +323,8 @@
 #     print(i)
 # print("Done with the loop")    
 
+##  BREAK STATEMENT
+
 
 # for i in range(1,101,1):
 #     print(i ,end=" ")
@@ -332,6 +334,14 @@
 #         print("Mississippi")
 # print("Thank you")
 
+
+# for i in range (12):
+#     if (i == 10):
+#         break
+#     print("5 X", i+1, "=", 5 * i)
+
+# print("left the loop")    
+    
 
 # count = 5
 # while (count > 0):
@@ -343,15 +353,69 @@
 
 
 ## EXAMPLE TO EMMULATE DO WHILE LOOP IN C
+## Do While loop runs to check condition is true or not if true print else exit the loop
+
 # do {
 #     #LOOP BODY
 
 # } while (condition);
 
+## EXAMPLE
+# i = 0
+# while True:
+#     print(i)
+#     i = i + 1
+#     if (i%100 == 0):
+#         break
+
+
+# for i in range (1,1000,1):
+#     print(i)
+#     if(i == 100):
+#         break
+
+
+#______________________________________________________________________________#
+
+
+## FUNCTIONS IN PYTHON
+## Built-in functions:
+# These functions are defined and pre-coded in python. Some examples of built-in functions are as follows:
+# min(), max(), len(), sum(), type(), range(), dict(), list(), tuple(), set(), print(), etc.
+#User Defined
+
+# def name(fname, lname):
+#     print("Hello, My first name is ", fname,", And My last name is ", lname )
+
+# name("Bhupendra", "Jogi")
+# name("Puneet", "Superstar")
+# name("Abdul", "Shinde")
+
+
+
+# def gmean(fnum, Snum):
+#     if (fnum > Snum):
+#         print("First number is greater")
+#     else:
+#         print("Second number is greater")    
+
+# gmean( 20, 10)
 
 
 
 
 
+# def reverse_string(input_str):
+#     reversed_str = ""
+#     index = len(input_str) - 1
+    
+#     while index >= 0:
+#         reversed_str += input_str[index]
+#         index -= 1
+    
+#     return reversed_str
 
-
+# # Example usage:
+# user_input = input("Enter a string: ")
+# reversed_input = reverse_string(user_input)
+# print(f"Reversed string: {reversed_input}")
