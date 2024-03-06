@@ -1,0 +1,68 @@
+.search-bar{
+    display: block;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.vid-prevw{  
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    
+}
+
+
+
+.vid-img{
+    width: 300px;
+    display: block;
+}
+
+.prof-pic{
+    width: 40px;
+    margin-top: 0px;
+    border-radius: 50px;
+}
+
+.vid-title{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+    vertical-align: top;
+}
+.vid-authr{
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(96, 96, 96);
+    margin-bottom: 6px;
+}
+.vid-stats{
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(96, 96, 96);
+
+}
+
+.channel-img{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+
+.vid-info{
+    display: inline-block;
+    width: 200px;
+}
+
+.thumbnail-row{
+    margin-bottom: 12px;
+}
