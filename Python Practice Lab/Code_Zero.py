@@ -419,3 +419,20 @@
 # user_input = input("Enter a string: ")
 # reversed_input = reverse_string(user_input)
 # print(f"Reversed string: {reversed_input}")
+
+
+
+#*__________________________________________________________________________#
+
+## THUMB RULE OF AUTOMATION
+# Time_to_automate < (time_to_perform * amount_of_times_done)
+
+# eg. 
+
+# time_to_automate = 10 hours
+
+# time_to_perform = 40 minutes
+
+# Amount_of_times_done = x 
+
+#___________________________________________________________________________*#
