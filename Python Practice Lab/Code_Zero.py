@@ -195,16 +195,16 @@
 
 # EXP 2
 
-# age = int(input('How old are you? '))
-# print("Your age is: ", age)
+age = int(input('How old are you? '))
+print("Your age is: ", age)
 
-# #Conditional Operators
-# #[ >, <, >=, <=, ==, != ]
+#Conditional Operators
+#[ >, <, >=, <=, ==, != ]
  
-# if (age>18):
-#     print("You can apply for driving lisence, Congrats!!(^_^)")
-# else:
-#     print("'Go Ride a Bicycle'")
+if (age>18):
+    print("You can apply for driving lisence, Congrats!!(^_^)")
+else:
+    print("'Go Ride a Bicycle'")
 
     
 ##IF-ELSE-ELIF
@@ -391,6 +391,10 @@
 # name("Puneet", "Superstar")
 # name("Abdul", "Shinde")
 
+# def name(fname, mname, lname):
+#     print("Hello!", fname, mname, lname)    
+
+# name("A", "B", "C")
 
 
 # def gmean(fnum, Snum):
@@ -400,9 +404,6 @@
 #         print("Second number is greater")    
 
 # gmean( 20, 10)
-
-
-
 
 
 # def reverse_string(input_str):
@@ -422,6 +423,48 @@
 
 
 
+##TO FIND THE AVERAGE USING FUNCTIONS INCLUDING LOOP
+# def average(*numbers):
+#     sum = 0 
+#     for i in numbers:
+#         sum = sum + i
+#     print("Average is: ", sum/ len(numbers))
+
+
+# average (5, 6)
+
+
+##EXAMPLES OF CALLING FUNCTION
+
+##EX1
+# def name(fname, mname, lname):
+#     # print(type(name))
+#     print("Hello,", fname, mname, lname)
+
+# name("Vinayak", "Damodar", "Savarkar")
+
+##EX2
+# def name(*name):
+#     # print(type(name))
+#     print("Hello,", name[0], name[1], name[2])
+
+# name("Vinayak","Damodar","Savarkar")   
+
+##EX3
+# def name(**name):
+#     # print(type(name))
+#     print("Hello,", name["fname"], name["mname"], name["lname"])
+
+# name(mname = "Damodar", lname = "Savarkar", fname = "Vinayak")
+
+##EX4
+# def name(fname, mname, lname):
+#     # print(type(name))
+#     return "Hello, " + fname + " " + mname + " " + lname
+
+# print(name("Vinayak", "Damodar", "Savarkar"))
+
+
 #*__________________________________________________________________________#
 
 ## THUMB RULE OF AUTOMATION
@@ -436,3 +479,6 @@
 # Amount_of_times_done = x 
 
 #___________________________________________________________________________*#
+
+## LISTS ##
+
