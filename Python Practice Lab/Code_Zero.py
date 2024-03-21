@@ -195,16 +195,16 @@
 
 # EXP 2
 
-age = int(input('How old are you? '))
-print("Your age is: ", age)
+# age = int(input('How old are you? '))
+# print("Your age is: ", age)
 
 #Conditional Operators
 #[ >, <, >=, <=, ==, != ]
  
-if (age>18):
-    print("You can apply for driving lisence, Congrats!!(^_^)")
-else:
-    print("'Go Ride a Bicycle'")
+# if (age>18):
+#     print("You can apply for driving lisence, Congrats!!(^_^)")
+# else:
+#     print("'Go Ride a Bicycle'")
 
     
 ##IF-ELSE-ELIF
@@ -482,3 +482,24 @@ else:
 
 ## LISTS ##
 
+# lst1 = [1,2,3,4,5,6]
+# lst2 = ["Apple", "Grapes", "Orange"]
+#          [0]        [1]       [2]
+# print(lst1)
+# print(lst2)
+# print(lst2[1])
+
+
+
+# marks = [50,70,90,"Chikoo",80,60]
+
+# if "Chikoo" in marks:
+#     print("Yes")
+# else:
+#     print("NO")    
+
+# if "koo" in "Chikoo":
+#     print("Yes")
+# else: 
+#     print("No")   
+ 
