@@ -48,7 +48,6 @@ logo=PhotoImage(file="egg.png")
 Label(root,image=logo,bg='#2f4155').place(x=20,y=20)
 Label(root,text="Cyber Forensics", background="#0f0f0f",fg="white",font=('ariel 25 bold')).place(x=120, y=45)
 
-
 #First Frame
 f=Frame(root,bd=3,bg="black",width=580,height=400,relief=GROOVE)
 f.place(x=20,y=150)
@@ -70,44 +69,18 @@ Scrollbar1.configure(command=text1.yview)
 text1.configure(yscrollcommand=Scrollbar1.set)
 
 #third Frame
-
 frame3=Frame(root,bd=3,bg="black",width=580,height=100,relief=GROOVE)
 frame3.place(x=20,y=585)
 
 Button(frame3,text="Open Image", width=16, height=2, font= "arial 15 bold", command=showimage).place(x=30,y=15)
 Button(frame3,text="Save Image", width=16, height=2, font= "arial 15 bold", command=save).place(x=340,y=15)
 
-
 #Fourth Frame
-
 frame4=Frame(root,bd=3,bg="black",width=580,height=100,relief=GROOVE)
 frame4.place(x=640,y=585)
 
 Button(frame4,text="Encrypt", width=16, height=2, font= "arial 15 bold", command=Hide).place(x=30,y=15)
 Button(frame4,text="Decrypt", width=16, height=2, font= "arial 15 bold", command=Show).place(x=340,y=15)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 root.mainloop()
 

@@ -502,4 +502,99 @@
 #     print("Yes")
 # else: 
 #     print("No")   
- 
+
+
+#LIST COMPREHENSION
+
+# lst = [i for i in range (1,11)]
+# print(lst)
+# #WORKING WITH A CONDITION WHENB A CONDITION IS TRUE
+# lst = [i*i for i in range (10)if i%2==0]
+# print(lst) 
+
+##_______________________ LIST METHODS__________________________ ##
+
+# l = [6,7,8,9,1,2,3,4,5,1]
+
+# l.append(6) # Inserts a value in the list
+
+# l.sort() #Accending Order
+
+# l.sort(reverse=True) #Decending Order
+
+# l.reverse() # Just Reverses the whole list
+
+# print(l.index(7)) # Gives the position value of the number
+
+# print(l.count(1)) # Counts how many times the number appears in the list
+
+# m = l.copy() # Return a copy of the original list
+
+# l.insert(1, 10) #  Insert a value at any given position
+
+# m = [10,11,12,13,14,15] 
+# l.extend(m) # Add values from one list to another
+
+# CONCATINATING LISTS
+# print(l+m)
+
+# print(l)
+
+
+##________________________ TUPLES ____________________________________##
+
+
+
+
+# tuple1 = (1)
+# print (type(tuple1),tuple)
+
+# tup  = (1,2,3,"Hello", "World")
+# print(type(tup), tup)
+
+
+
+# country = ("Spain", "Italy", "India", "England", "Germany")
+# #            [0]      [1]      [2]       [3]        [4]
+# print(country[-1]) # Similar to print(country[len(country) - 1])
+# print(country[-3])
+# print(country[-4])
+
+
+# county = ("Israel","Italy","France","Russia","Bharat","Germany")
+
+# if "Russia" in county:
+#     print("Congrats! President Putin for winning the Elections of",county[3])
+# else:
+#     print("Thats Obvio")    
+
+
+## Tuple[start : end : jumpIndex]
+
+#animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow")
+# print(animals[3:7])     #using positive indexes
+# print(animals[-7:-2])   #using negative indexes
+
+# print(animals[::2])     #using positive indexes
+# print(animals[-7:-1:2]) #using negative indexes
+
+# print(animals[1:8:3])
+
+## TUPLES METHODS ##
+
+# countries = ("Spain", "Italy", "Bharat", "USA", "Germany")
+# temp = list(countries)
+# temp.append("Russia")       #add item 
+# temp.pop(3)                 #remove item
+# temp[0] = "Finland"         #change item
+# countries = tuple(temp)
+# print(countries)
+
+##Count Method
+Tuple = (0, 1, 2, 3, 2, 3, 1, 3, 2)
+# num = Tuple.count(3)
+# print('Count of 3 in Tuple1 is:', num)
+
+#Give the first Index
+res = Tuple.index(3)
+print('First occurrence of 3 is', res)
