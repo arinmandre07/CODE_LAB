@@ -591,10 +591,125 @@
 # print(countries)
 
 ##Count Method
-Tuple = (0, 1, 2, 3, 2, 3, 1, 3, 2)
+# Tuple = (0, 1, 2, 3, 2, 3, 1, 3, 2)
 # num = Tuple.count(3)
 # print('Count of 3 in Tuple1 is:', num)
 
 #Give the first Index
-res = Tuple.index(3)
-print('First occurrence of 3 is', res)
+# res = Tuple.index(3)
+# print('First occurrence of 3 is', res)
+
+
+##________________________EXERCISE 3__________________________##
+
+
+# Question = ["1. Who is the captain of Team India? ","2. Who is the Prime Minister of India? ",
+#             "3. 5th Largest Economy in the world? ","4. What is a two wheeler also called? "]
+
+# Answers = ["Rohit Sharma","Narendra Modi","Bharat","Motorcycle"]
+
+# ans = ["yes","no"]
+
+# x = str(input("Start the game KAUN BANEGA CROREPATI (yes/no): "))
+
+# if (x == ans[0]):
+
+#     for question in Question:
+
+#         Q1 = str(input(Question[0]))
+#         if (Q1 == Answers[0]):
+#             print("SAHI JAWAB!, AAPKI DHAN RASHI 5000/-","\n")
+#         else:
+#             print("APSOS YEH GALAT JAWAB")
+#             break
+
+#         Q2 = str(input(Question[1]))
+#         if (Q2 == Answers[1]):
+#             print("SAHI JAWAB!, AAPKI DHAN RASHI 10000/-","\n")
+#         else:
+#             print("APSOS YEH GALAT JAWAB")
+#             break
+
+#         Q3 = str(input(Question[2]))
+#         if (Q3 == Answers[2]):
+#             print("SAHI JAWAB!, AAPKI DHAN RASHI 15000/-","\n")
+#         else:
+#             print("APSOS YEH GALAT JAWAB")
+#             break
+
+#         Q4 = str(input(Question[3]))
+#         if (Q4 == Answers[3]):
+#             print("SAHI JAWAB!, AAPKI DHAN RASHI 20000/-","\n")
+
+#             print("MEHENAT KAR AISE PAISE NHI MILTE! Thanks For Playing.")
+#             break
+
+#         else:
+#             print("APSOS YEH GALAT JAWAB")
+#             break
+
+# else:
+#     print("NIKAL BHIKARI")
+
+
+
+##___________________________________________________________________________________________________________##
+    
+
+
+## STRING FORMATTING ##
+## F_STRING
+
+
+# sentence = "Hey my name is {} and i am from {}"
+# country = "India"
+# name = "Arin"
+
+# print(sentence.format(name, country)) # Considerably confusing
+
+# print(f"Hey my name is {name} and i am from {country}") # f-string makes it easier
+
+
+# val = 'Geeks'  
+# print(f"{val}for{val} is a portal for {val}.")  
+
+
+# name = 'Arin'  
+# age = 19  
+# print(f"Hello, My name is {name} and I'm {age} years old.")
+
+
+# price = 49.09999
+# txt = "For only {price:.2f} dollars!"
+# print(txt.format(price = 49))
+
+
+##___________________________________________________________________##
+
+## DocStrings ##
+
+# def square(n):
+#     '''Takes in a number n, returns the square of n'''
+#     print(n**2)
+# square(5)
+
+# print(square.__doc__)
+
+
+##__________________________________________________________________##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
