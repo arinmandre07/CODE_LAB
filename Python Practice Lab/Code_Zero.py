@@ -699,6 +699,126 @@
 ##__________________________________________________________________##
 
 
+## RECCURSION ##
+
+
+# def factorial(n):
+#     if (n==0 or n==1):
+#         return 1
+#     else:
+#         return n * factorial(n-1)
+    
+# print(factorial(4))
+
+
+##  WORKING OF THE PROGRAM
+# 5 * factorial(4)
+# 5 * 4 * factorial(3)
+# 5 * 4 * 3 factorial(2)
+# 5 * 4 * 3 * 2 * factorial(1)
+# 5 * 4 * 3 * 2 * 1  
+
+
+##___________________________________SETS_____________________________________________##
+
+
+## USED TO AVOID REPEATATIVE ENTRIES
+
+# reg = {"Alex","Rohit","Yash","Max","Rohit"}
+# print(reg)
+
+# Creating a Empty Set (If set is not defined in this case it is taken as a dictionary by the compiler)
+# S = set{}
+# print type(S)
+
+## SET MANIPULATION ##
+
+# teams1 = {"Mumbai Indians","Royals Banglore","Chennai Kings"}
+# teams2 = {"Kolkata Riders","Rajastan Royals","Pune Giants"}
+
+# print(teams1.union(teams2))  #Used to join two sets
+# teams1.update(teams2)
+
+# print(teams1, teams2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##___________________________________DICTIONARY________________________________________________##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
