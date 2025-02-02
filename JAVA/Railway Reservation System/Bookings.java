@@ -16,20 +16,20 @@ public class Bookings extends JFrame {
 
     public Bookings() {
         setTitle("Reservations Booking");
-        setSize(1250, 720); // Increased size for better visibility
+        setSize(1250, 720); 
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLayout(new BorderLayout());
 
-        // White background
+        
         getContentPane().setBackground(Color.WHITE);
 
-        // Define table model
+        
         model = new DefaultTableModel();
         model.addColumn("ID");
         model.addColumn("IRCTC Username");
         model.addColumn("Train Name");
-        model.addColumn("Train Number"); // Added Train Number column
+        model.addColumn("Train Number"); 
         model.addColumn("Departure");
         model.addColumn("Arrival");
         model.addColumn("Journey Date");
@@ -37,25 +37,25 @@ public class Bookings extends JFrame {
         model.addColumn("Price");
         model.addColumn("Total");
 
-        // Create JTable
+       
         table = new JTable(model);
-        table.setFont(new Font("Segoe UI Semibold", Font.PLAIN, 14)); // Bigger font
+        table.setFont(new Font("Segoe UI Semibold", Font.PLAIN, 14)); 
         table.setRowHeight(25);
         table.setGridColor(Color.LIGHT_GRAY);
         table.setBackground(Color.WHITE);
 
-        // Style table header
+        
         JTableHeader header = table.getTableHeader();
         header.setFont(new Font("Segoe UI Semibold", Font.BOLD, 16));
         header.setBackground(new Color(79, 120, 255));
         header.setForeground(Color.WHITE);
 
-        // Scroll pane
+        
         JScrollPane scrollPane = new JScrollPane(table);
         scrollPane.setBackground(Color.WHITE);
         add(scrollPane, BorderLayout.CENTER);
 
-        // Styled Cancel Button
+        
         JButton cancelButton = new JButton("Cancel Reservation");
         cancelButton.setFont(new Font("Segoe UI Semibold", Font.BOLD, 14));
         cancelButton.setBackground(new Color(79, 120, 255));
@@ -65,13 +65,13 @@ public class Bookings extends JFrame {
 
         cancelButton.addActionListener(this::cancelReservation);
         
-        // Panel for button
+        
         JPanel buttonPanel = new JPanel();
         buttonPanel.setBackground(Color.WHITE);
         buttonPanel.add(cancelButton);
         add(buttonPanel, BorderLayout.SOUTH);
 
-        // Load Data
+        
         loadDataFromDatabase();
         setVisible(true);
     }
@@ -86,7 +86,7 @@ public class Bookings extends JFrame {
                     resultSet.getInt("id"),
                     resultSet.getString("irctc_username"),
                     resultSet.getString("train_name"),
-                    resultSet.getString("train_num"), // Fetching Train Number
+                    resultSet.getString("train_num"), 
                     resultSet.getString("departure"),
                     resultSet.getString("arrival"),
                     resultSet.getDate("journey_date"),
