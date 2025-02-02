@@ -12,107 +12,107 @@ public class Main extends javax.swing.JFrame {
     }
 
     private void initComponents() {
-        // Create buttons for navigation
+        
         JButton addTrainButton = new JButton("Add Train");
         JButton reservationButton = new JButton("Reservation");
         JButton bookingsButton = new JButton("Bookings");
 
-        // Create a label at the top
+       
         JLabel servicesLabel = new JLabel("Services");
-        servicesLabel.setFont(new Font("Arial", Font.BOLD, 20));  // Bold and larger font
-        servicesLabel.setForeground(new Color(0, 123, 255));  // Blue color for the label
+        servicesLabel.setFont(new Font("Arial", Font.BOLD, 20));  
+        servicesLabel.setForeground(new Color(0, 123, 255));  
         servicesLabel.setHorizontalAlignment(SwingConstants.CENTER);
 
-        // Set layout and size
+        
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Welcome to Railway System");
-        setSize(500, 450);  // Increased window size for better UI with label
-        setLocationRelativeTo(null);  // Center the window
+        setSize(500, 450);  
+        setLocationRelativeTo(null);  
 
-        // Set background color for the window
-        getContentPane().setBackground(new Color(245, 245, 245));  // Light gray background
-        setLayout(new GridBagLayout());  // Use GridBagLayout for better layout control
+        
+        getContentPane().setBackground(new Color(245, 245, 245));  
+        setLayout(new GridBagLayout());  
 
-        // Define a GridBagConstraints object for controlling component placement
+        
         GridBagConstraints gbc = new GridBagConstraints();
-        gbc.gridx = 0;  // Column
-        gbc.gridy = 0;  // Row
-        gbc.insets = new Insets(10, 10, 10, 10);  // Add spacing between components
+        gbc.gridx = 0;  
+        gbc.gridy = 0;  
+        gbc.insets = new Insets(10, 10, 10, 10);  
 
-        // Add label at the top
+        
         add(servicesLabel, gbc);
         
-        // Increase the button size and customize with modern look
+        
         customizeButton(addTrainButton);
         customizeButton(reservationButton);
         customizeButton(bookingsButton);
 
-        // Add buttons to the frame using GridBagLayout
-        gbc.gridy = 1;  // Move to the next row
-        gbc.gridwidth = 1;  // One column for the button
+        
+        gbc.gridy = 1;  
+        gbc.gridwidth = 1;  
         add(addTrainButton, gbc);
         
-        gbc.gridy = 2;  // Move to the next row
+        gbc.gridy = 2;  
         add(reservationButton, gbc);
         
-        gbc.gridy = 3;  // Move to the next row
+        gbc.gridy = 3;  
         add(bookingsButton, gbc);
 
-        // Action listener for "Add Train" button
+        
         addTrainButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Open the AddTrain page
-                addtrain addTrainPage = new addtrain();  // Ensure AddTrain is the correct class name
+                
+                addtrain addTrainPage = new addtrain();  
                 addTrainPage.setVisible(true);
-                dispose();  // Close the main window
+                dispose();  
             }
         });
 
-        // Action listener for "Reservation" button
+        
         reservationButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Open the Reservation page
-                Reservation reservationPage = new Reservation();  // Ensure correct class name
+                
+                Reservation reservationPage = new Reservation();  
                 reservationPage.setVisible(true);
-                dispose();  // Close the main window
+                dispose();  
             }
         });
 
-        // Action listener for "Bookings" button
+        
         bookingsButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Open the Bookings page
-                Bookings bookingsPage = new Bookings();  // Ensure Bookings is the correct class name
+                
+                Bookings bookingsPage = new Bookings();  
                 bookingsPage.setVisible(true);
-                dispose();  // Close the main window
+                dispose();  
             }
         });
     }
 
-    // Method to customize button appearance
+    
     private void customizeButton(JButton button) {
-        // Set a custom font and larger size
-        button.setFont(new Font("Arial", Font.BOLD, 16));  // Larger font
+        
+        button.setFont(new Font("Arial", Font.BOLD, 16));  
 
-        // Set a rounded border with a color
-        button.setBackground(new Color(0, 123, 255));  // Blue color
-        button.setForeground(Color.WHITE);  // White text
+        
+        button.setBackground(new Color(0, 123, 255));  
+        button.setForeground(Color.WHITE);  
         button.setFocusPainted(false);
         button.setBorder(BorderFactory.createLineBorder(new Color(0, 123, 255), 2, true));
         button.setOpaque(true);
-        button.setPreferredSize(new Dimension(200, 50));  // Larger buttons
+        button.setPreferredSize(new Dimension(200, 50));  
 
-        // Add hover effect on button
+        
         button.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
-                button.setBackground(new Color(0, 150, 255));  // Darker blue on hover
+                button.setBackground(new Color(0, 150, 255));  
             }
 
             public void mouseExited(java.awt.event.MouseEvent evt) {
-                button.setBackground(new Color(0, 123, 255));  // Reset to original blue
+                button.setBackground(new Color(0, 123, 255));  
             }
         });
     }
