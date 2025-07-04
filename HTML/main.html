@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad Rotator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            margin: 0 auto;
+            width: 80%;
+            max-width: 500px;
+        }
+        #adRotator {
+            width: 100%;
+            height: 300px;
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+        .adImage {
+            width: 100%;
+            height: 100%;
+            display: none;
+        }
+        .adImage.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Ad Rotator</h2>
+
+        <!-- Ad Rotator Control -->
+        <div id="adRotator">
+            <a href="https://www.meesho.com" target="_blank">
+                <img src="mesho.png" alt="Ad 1" class="adImage active">
+            </a>
+            <a href="https://www.amazon.com" target="_blank">
+                <img src="amazon.png" alt="Ad 2" class="adImage">
+            </a>
+            <a href="https://www.myntra.com" target="_blank">
+                <img src="myntra.png" alt="Ad 3" class="adImage">
+            </a>
+        </div>
+        
+        <br>
+        <p>View rotating ads and click to visit the website!</p>
+    </div>
+
+    <script>
+        // Ad Rotator Logic
+        var currentAdIndex = 0;
+        var ads = document.querySelectorAll('.adImage');
+
+        function rotateAds() {
+            // Hide the current ad
+            ads[currentAdIndex].classList.remove('active');
+
+            // Move to the next ad, and loop back to the first one if needed
+            currentAdIndex = (currentAdIndex + 1) % ads.length;
+
+            // Show the new ad
+            ads[currentAdIndex].classList.add('active');
+        }
+
+        // Change ads every 5 seconds
+        setInterval(rotateAds, 5000); // 5000 ms = 5 seconds
+    </script>
+
+</body>
+</html>
