@@ -7,7 +7,7 @@ from openai import OpenAI
 import base64  
 
 # ---------------- OPENAI SETUP ----------------
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="Your API")
 
 root = Tk()
 root.title("CipherVision: Advanced Image Steganography Tool")
