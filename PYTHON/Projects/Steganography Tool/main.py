@@ -6,7 +6,7 @@ from stegano import lsb
 from openai import OpenAI
 import base64  
 
-# ---------------- OPENAI SETUP ----------------
+
 client = OpenAI(api_key="Your API")
 
 root = Tk()
@@ -18,7 +18,7 @@ root.configure(background="#0f0f0f")
 filename = None
 saved_file = None
 
-# ---------------- SIMPLE BASE64 ENCRYPTION ----------------
+
 def encrypt_base64(text):
     return base64.b64encode(text.encode()).decode()
 
@@ -26,9 +26,9 @@ def decrypt_base64(text):
     try:
         return base64.b64decode(text.encode()).decode()
     except Exception:
-        return text  # fallback if text isn't valid Base64
+        return text  
 
-# ---------------- GUI FUNCTIONS ----------------
+
 def showimage():
     global filename
     filename = filedialog.askopenfilename(
@@ -54,10 +54,10 @@ def Hide():
         saved_file = "hidden.png"
         secret.save(saved_file)
         
-        # Clear text box
+        
         text1.delete(1.0, END)
         
-        # Deselect image
+        
         lbl.configure(image=None)
         lbl.image = None
         filename = None
@@ -75,12 +75,12 @@ def Show():
     if hidden_message:
         decrypted = decrypt_base64(hidden_message)
         
-        # Deselect image
+        
         lbl.configure(image=None)
         lbl.image = None
         filename = None
         
-        # Prepend "Decrypt text: " before opening chat
+        
         open_chatbot(initial_text=f"Decrypt text: {decrypted}")
     else:
         messagebox.showwarning("Warning", "No hidden message found!")
@@ -95,7 +95,7 @@ def save():
     else:
         messagebox.showerror("Error", "No secret image to save.")
 
-# ---------------- CIPHER TERMINAL WINDOW ----------------
+
 def open_chatbot(initial_text=None):
     chat_win = Toplevel(root)
     chat_win.title("Cipher Terminal")
@@ -143,7 +143,7 @@ def open_chatbot(initial_text=None):
 
     Button(chat_win, text="Execute", font="arial 12 bold", bg="white", fg="black", command=send_message).place(x=500, y=420, width=80, height=40)
 
-# ---------------- GUI DESIGN ----------------
+
 try:
     image_icon = ImageTk.PhotoImage(Image.open("anony.png"))
     root.iconphoto(False, image_icon)
@@ -158,13 +158,13 @@ except:
 
 Label(root, text="Cipher Vision", background="#0f0f0f", fg="white", font=('ariel 25 bold')).place(x=120, y=45)
 
-# Image frame
+
 f = Frame(root, bd=3, bg="black", width=580, height=400, relief=GROOVE)
 f.place(x=20, y=150)
 lbl = Label(f, bg="black")
 lbl.place(x=80, y=30)
 
-# Message box frame
+
 frame2 = Frame(root, bd=3, width=580, height=400, bg="black", relief=GROOVE)
 frame2.place(x=640, y=150)
 text1 = Text(frame2, font="Roboto 20", bg="white", fg="black", relief=GROOVE, wrap=WORD)
@@ -174,22 +174,21 @@ Scrollbar1.place(x=560, y=0, height=400)
 Scrollbar1.configure(command=text1.yview)
 text1.configure(yscrollcommand=Scrollbar1.set)
 
-# Buttons Left
+
 frame3 = Frame(root, bd=3, bg="black", width=580, height=100, relief=GROOVE)
 frame3.place(x=20, y=585)
 Button(frame3, text="Open Image", width=16, height=2, font="arial 15 bold", command=showimage).place(x=30, y=15)
 Button(frame3, text="Save Image", width=16, height=2, font="arial 15 bold", command=save).place(x=340, y=15)
 
-# Buttons Right
+
 frame4 = Frame(root, bd=3, bg="black", width=580, height=100, relief=GROOVE)
 frame4.place(x=640, y=585)
 Button(frame4, text="Encrypt", width=16, height=2, font="arial 15 bold", command=Hide).place(x=30, y=15)
 Button(frame4, text="Decrypt", width=16, height=2, font="arial 15 bold", command=Show).place(x=340, y=15)
 
-# Chatbot button
-# Custom styled Cipher button
+
 def on_enter(e):
-    cipher_btn['bg'] = '#4CAF50'  # hover background
+    cipher_btn['bg'] = '#4CAF50'  
     cipher_btn['fg'] = 'white'
 
 def on_leave(e):
@@ -204,16 +203,16 @@ cipher_btn = Button(
     fg="#00FF41",
     activebackground="#4CAF50",
     activeforeground="white",
-    bd=0,               # no border
+    bd=0,               
     relief=RIDGE,
     cursor="hand2",
-    padx=20,            # horizontal padding
-    pady=10,            # vertical padding
+    padx=20,            
+    pady=10,            
     command=open_chatbot
 )
 cipher_btn.place(x=980, y=30)
 
-# Bind hover effects
+
 cipher_btn.bind("<Enter>", on_enter)
 cipher_btn.bind("<Leave>", on_leave)
 
